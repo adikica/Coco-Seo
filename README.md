@@ -303,4 +303,4 @@ GPL v2 or later
 👤 Author
 
 Developed by Adi Kica
-For dnovogroup.com
+For website.com
