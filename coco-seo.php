@@ -6,16 +6,16 @@ declare(strict_types=1);
  *
  * @package     CocoSEO
  * @author      Adi Kica
- * @copyright   2025 dnovogroup.com
+ * @copyright   2025 website.com
  * @license     GPL-2.0-or-later
  *
  * @wordpress-plugin
  * Plugin Name: Coco SEO Plugin
- * Plugin URI: https://dnovogroup.com/
+ * Plugin URI: https://website.com/
  * Description: A modern SEO plugin for WordPress with advanced meta management, sitemaps, robots.txt, and Google indexing.
  * Version: 2.0.0
  * Author: Adi Kica
- * Author URI: https://dnovogroup.com/
+ * Author URI: https://website.com/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: coco-seo
