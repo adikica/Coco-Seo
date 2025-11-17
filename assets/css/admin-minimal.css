@@ -1,0 +1,144 @@
+/**
+ * Minimal CSS for Coco SEO Plugin admin interface
+ */
+
+/* Dashboard styles */
+.coco-seo-dashboard {
+    max-width: 1200px;
+}
+
+.coco-seo-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.coco-seo-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    width: calc(50% - 10px);
+    min-width: 300px;
+}
+
+.coco-seo-card h2 {
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.coco-seo-card-content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.coco-seo-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+}
+
+.coco-seo-stat-value {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.coco-seo-stat-label {
+    font-size: 14px;
+    color: #646970;
+    margin-top: 5px;
+}
+
+.coco-seo-actions {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+/* Settings styles */
+.coco-seo-settings-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.coco-seo-settings-section h2 {
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Status table styles */
+.coco-seo-missing {
+    color: #dc3545;
+    font-style: italic;
+}
+
+.coco-seo-enabled {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.coco-seo-disabled {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.coco-seo-filters {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.coco-seo-filters select {
+    margin-right: 8px;
+}
+
+.coco-seo-filters .search-box {
+    margin-left: auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .coco-seo-card {
+        width: 100%;
+    }
+    
+    .coco-seo-filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .coco-seo-filters select,
+    .coco-seo-filters input {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .coco-seo-filters .search-box {
+        margin-left: 0;
+        width: 100%;
+    }
+}
